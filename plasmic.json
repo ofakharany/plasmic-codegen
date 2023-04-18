@@ -1,0 +1,154 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "htABaZqjni3rpeuBprLs6a",
+      "projectApiToken": "K99KmLO9kd66OHvOF4spr0LzuFV5bREv9wzpvSkRgAGoKMcUuoRp1sewMLi39vLwTWLXRO2jvhZepLONA",
+      "projectName": "Copy of Interactions tutorial",
+      "version": "latest",
+      "cssFilePath": "plasmic/copy_of_interactions_tutorial/plasmic_copy_of_interactions_tutorial.module.css",
+      "components": [
+        {
+          "id": "7VSGrTnAyTyfr",
+          "name": "Step1",
+          "type": "managed",
+          "projectId": "htABaZqjni3rpeuBprLs6a",
+          "renderModuleFilePath": "plasmic/copy_of_interactions_tutorial/PlasmicStep1.tsx",
+          "importSpec": {
+            "modulePath": "Step1.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_interactions_tutorial/PlasmicStep1.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "zq8NVUIaMV8-I",
+          "name": "Switch",
+          "type": "managed",
+          "projectId": "htABaZqjni3rpeuBprLs6a",
+          "renderModuleFilePath": "plasmic/copy_of_interactions_tutorial/PlasmicSwitch.tsx",
+          "importSpec": {
+            "modulePath": "Switch.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_interactions_tutorial/PlasmicSwitch.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "switch"
+        },
+        {
+          "id": "4IQQu1JKmgzVu",
+          "name": "Step2",
+          "type": "managed",
+          "projectId": "htABaZqjni3rpeuBprLs6a",
+          "renderModuleFilePath": "plasmic/copy_of_interactions_tutorial/PlasmicStep2.tsx",
+          "importSpec": {
+            "modulePath": "Step2.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_interactions_tutorial/PlasmicStep2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "Nk8BHd2VxzLcF",
+          "name": "Step3",
+          "type": "managed",
+          "projectId": "htABaZqjni3rpeuBprLs6a",
+          "renderModuleFilePath": "plasmic/copy_of_interactions_tutorial/PlasmicStep3.tsx",
+          "importSpec": {
+            "modulePath": "Step3.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_interactions_tutorial/PlasmicStep3.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "Z2-bJBY1mYy2V",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "htABaZqjni3rpeuBprLs6a",
+          "renderModuleFilePath": "plasmic/copy_of_interactions_tutorial/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_interactions_tutorial/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "9p-Ht8_FObo03_",
+          "name": "Step4",
+          "type": "managed",
+          "projectId": "htABaZqjni3rpeuBprLs6a",
+          "renderModuleFilePath": "plasmic/copy_of_interactions_tutorial/PlasmicStep4.tsx",
+          "importSpec": {
+            "modulePath": "Step4.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_interactions_tutorial/PlasmicStep4.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "3x-g38V1yDuQmW",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/copy_of_interactions_tutorial/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "OR1sp1EE4k9P8M",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/copy_of_interactions_tutorial/icons/PlasmicIcon__Icon.tsx"
+        }
+      ],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "V5Ps3oIcXmTD",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "pL3MV1ZM9AG6f",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "scVwfhfv5H",
+        "name": "Experiment",
+        "projectId": "htABaZqjni3rpeuBprLs6a",
+        "contextFilePath": "plasmic/copy_of_interactions_tutorial/PlasmicGlobalVariant__Experiment.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.259",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.259/dist/plasmic.schema.json"
+}
