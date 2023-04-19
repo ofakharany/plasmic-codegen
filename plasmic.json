@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "files",
@@ -135,6 +135,45 @@
           "name": "Fetcher",
           "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
         }
+      ],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "aroYMmAisAVcKNkCTKvzX",
+      "projectApiToken": "SLepfwap4s8PMjeVBRKkH10umkHr8L1MeCYfbsauokvGr9twWG9GVF2922qal9TtHn9ceeTKoNWEFBoeCLJQ",
+      "projectName": "Blank project",
+      "version": "latest",
+      "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
+      "components": [
+        {
+          "id": "J3hEBz86_Dpi",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "aroYMmAisAVcKNkCTKvzX",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "tCnoh_bd7M",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "mzWTFwVrf7",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
       ]
     }
   ],
@@ -145,6 +184,12 @@
         "name": "Experiment",
         "projectId": "htABaZqjni3rpeuBprLs6a",
         "contextFilePath": "plasmic/copy_of_interactions_tutorial/PlasmicGlobalVariant__Experiment.tsx"
+      },
+      {
+        "id": "CaziUa3mSmMkY",
+        "name": "Screen",
+        "projectId": "aroYMmAisAVcKNkCTKvzX",
+        "contextFilePath": "plasmic/blank_project/PlasmicGlobalVariant__Screen.tsx"
       }
     ]
   },
